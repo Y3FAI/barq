@@ -1,0 +1,112 @@
+# =========================
+# General / OS
+# =========================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# =========================
+# Python & AI/ML
+# =========================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+env/
+.env
+.venv/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+# Optional: Ignore profile configuration
+profile_default/
+ipython_config.py
+
+# Model Weights & Large Data (AI Specific)
+# You might want to use Git LFS for these instead of ignoring them
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.onnx
+*.tflite
+*.pkl
+models/
+data/
+datasets/
+raw_data/
+
+# Tensorboard / ML Logs
+runs/
+wandb/
+mlruns/
+
+# =========================
+# Node & React Native
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json # Keep this if you use npm, ignore if you use yarn strictly
+# yarn.lock # Usually you WANT to commit this, but uncomment if you don't.
+
+# Metro Bundler
+.metro/
+
+# =========================
+# React Native: Android
+# =========================
+android/app/build/
+android/.gradle/
+android/app/src/main/assets/index.android.bundle
+android/app/src/main/assets/index.android.bundle.meta
+android/app/generated/
+android/build/
+android/captures/
+android/local.properties
+*.keystore
+!android/app/debug.keystore
+
+# =========================
+# React Native: iOS
+# =========================
+ios/build/
+ios/Pods/
+ios/*.xcworkspace
+!ios/*.xcworkspace/contents.xcworkspacedata
+ios/*.xcodeproj/project.xcworkspace/
+ios/*.xcodeproj/xcuserdata/
+ios/*.xcworkspace/xcuserdata/
+ios/DerivedData/
+
+# =========================
+# IDEs & Editors
+# =========================
+.idea/
+.vscode/
+*.swp
+*.swo
