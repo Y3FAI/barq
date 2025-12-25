@@ -9,6 +9,7 @@
 ehthumbs.db
 Thumbs.db
 db/barq.db
+*.gguf
 
 # =========================
 # Python & AI/ML
